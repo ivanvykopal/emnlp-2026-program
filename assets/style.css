@@ -54,6 +54,13 @@ a.ws-chip:hover { filter: brightness(.95); text-decoration: underline; }
 .pill--talk { background: #b9d4ff; color: #0e2d63; }
 .pill--tutorial { background: #ffc2a8; color: #5a1e05; }
 
+/* past / now */
+.ev.is-past, .card-sched tr.is-past td { opacity: .45; filter: grayscale(1); }
+.slot.is-past .slot-time { color: var(--muted); opacity: .6; }
+.ev.is-now { box-shadow: 0 0 0 2px var(--accent); }
+.now-badge { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; padding: 1px 6px; border-radius: 4px; background: var(--accent); color: #fff; }
+.card-sched tr.is-now td { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+
 /* schedule */
 .day { margin-bottom: 32px; }
 .day-title { font-size: 1.25rem; margin: 18px 0 8px; padding-bottom: 6px; border-bottom: 2px solid var(--ink); }

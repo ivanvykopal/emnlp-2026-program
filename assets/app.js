@@ -119,13 +119,38 @@
     return box;
   }
 
+  /* ---------- past / now ---------- */
+
+  /* Current wall-clock time at the venue, as { date: "YYYY-MM-DD", min }. Handles DST via Intl. */
+  function venueNow() {
+    const parts = {};
+    new Intl.DateTimeFormat("en-CA", {
+      timeZone: SITE.TZ || undefined, year: "numeric", month: "2-digit", day: "2-digit",
+      hour: "2-digit", minute: "2-digit", hourCycle: "h23"
+    }).formatToParts(new Date()).forEach((p) => { parts[p.type] = p.value; });
+    return { date: parts.year + "-" + parts.month + "-" + parts.day, min: +parts.hour * 60 + +parts.minute };
+  }
+  let now = venueNow();
+
+  /* "past" | "now" | "upcoming" — untimed or undated events are always upcoming. */
+  function phase(e) {
+    const date = e.day && DAYS[e.day] && DAYS[e.day].date;
+    if (!date || !e.time) return "upcoming";
+    if (date !== now.date) return date < now.date ? "past" : "upcoming";
+    const end = e.time.end != null ? e.time.end : e.time.start;
+    if (now.min >= end) return "past";
+    return now.min >= e.time.start ? "now" : "upcoming";
+  }
+
   /* ---------- schedule view ---------- */
 
   function eventRow(e) {
-    const row = el("div", "ev ev--" + e.type);
+    const ph = phase(e);
+    const row = el("div", "ev ev--" + e.type + " is-" + ph);
     row.style.setProperty("--h", e.ws.hue);
     const head = el("div", "ev-head");
     head.append(wsChip(e.ws), pill(e.type));
+    if (ph === "now") head.append(el("span", "now-badge", "Now"));
     if (e.time) head.append(el("span", "ev-time", e.rawTime.replace(/-/g, "–")));
     row.append(head, el("div", "ev-title", e.title));
     if (e.speaker) row.append(speakerLine(e.speaker));
@@ -134,7 +159,8 @@
   }
 
   function breakRow(list) {
-    const row = el("div", "ev ev--break ev--merged");
+    const phases = list.map(phase);
+    const row = el("div", "ev ev--break ev--merged is-" + (phases.includes("now") ? "now" : phases.every((p) => p === "past") ? "past" : "upcoming"));
     const labels = [...new Set(list.map((e) => e.title))];
     row.append(el("span", "brk-label", labels.length === 1 ? labels[0] : "Breaks"));
     const chips = el("span", "brk-ws");
@@ -167,7 +193,7 @@
         });
         [...slots.keys()].sort((a, b) => a - b).forEach((start) => {
           const list = slots.get(start).sort((a, b) => a.ws.name.localeCompare(b.ws.name));
-          const slot = el("div", "slot");
+          const slot = el("div", "slot" + (list.every((e) => phase(e) === "past") ? " is-past" : ""));
           slot.append(el("div", "slot-time", fmt(start)));
           const body = el("div", "slot-body");
           const breaks = list.filter((e) => e.type === "break");
@@ -259,7 +285,7 @@
         d.append(el("summary", null, "Schedule · " + w.events.length + " items"));
         const t = el("table");
         w.events.forEach((e) => {
-          const tr = el("tr", "row--" + e.type);
+          const tr = el("tr", "row--" + e.type + " is-" + phase(e));
           tr.append(el("td", "col-time", (e.day && w.days.length > 1 ? DAYS[e.day].label.split(",")[0] + " " : "") + (e.rawTime || "—")));
           const td = el("td");
           td.append(pill(e.type), document.createTextNode(" " + e.title));
@@ -315,4 +341,14 @@
   $("tz").textContent = SITE.TIMEZONE || "local time";
   readHash();
   render();
+
+  /* Re-render only when some event changes phase, so open panels/scroll aren't disturbed needlessly. */
+  const allEvents = workshops.flatMap((w) => w.events);
+  const phaseKey = () => allEvents.map(phase).join("");
+  let lastKey = phaseKey();
+  setInterval(() => {
+    now = venueNow();
+    const k = phaseKey();
+    if (k !== lastKey) { lastKey = k; render(); }
+  }, 30000);
 })();

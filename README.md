@@ -15,6 +15,8 @@ Static site: no build step, no dependencies, no tracking.
 - **Events view**: one card per event (main conference, tutorials, each workshop) with status, speakers, full program, and notes.
 - Filters: day, workshop, keynotes only, hide breaks, full-text search. Filters
   are stored in the URL hash, so links like `#day=thu&keynotes=1` can be shared.
+- Past events are grayed out and events happening right now get a **Now** badge, based on
+  the current time in Budapest (`TZ` and each day's `date` in `workshops/index.js`). Updates live.
 
 ## Layout
 
