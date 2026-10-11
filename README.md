@@ -73,7 +73,7 @@ Opening `index.html` directly (`file://`) also works, because there is no `fetch
 ## Data sources
 
 https://2026.emnlp.org/program/workshops/ and each workshop's own site. Times
-are Budapest local time (CET, UTC+1) as published. At collection time,
-ClimateNLP, FinNLP, MathNLP, MRL, NLP4PI, and BabyLM had no official site linked.
+are Budapest local time (CET, UTC+1) as published. All workshops now have an
+official site linked on the EMNLP workshops page (as of October 2026).
 
 Unofficial community aggregation; not affiliated with EMNLP. Always check the official pages.

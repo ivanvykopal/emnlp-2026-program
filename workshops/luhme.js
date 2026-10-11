@@ -7,8 +7,8 @@ addWorkshop({
   day: "wed",
   description: "Reigniting the debate about the role of understanding in natural language use and applications; the intersection of language understanding and language technology in human-machine interaction.",
   speakers: [
-    { name: "Isabelle Augenstein", affiliation: "University of Copenhagen", title: null }
+    { name: "Isabelle Augenstein", affiliation: "University of Copenhagen", title: "Show Me the Work: Human-Centric Automated Fact-Checking" }
   ],
   schedule: [],
-  notes: "One keynote speaker announced; no timed program published yet."
+  notes: "One keynote speaker announced (talk title/abstract published October 2026); no timed program published yet."
 });

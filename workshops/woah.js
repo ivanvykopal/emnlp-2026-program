@@ -15,18 +15,18 @@ addWorkshop({
   schedule: [
     { time: "09:00–09:20", type: "session", title: "Opening remarks" },
     { time: "09:20–10:05", type: "keynote", title: "Invited talk", speaker: "Sara Tonelli" },
-    { time: "10:05–10:30", type: "talk", title: "Lightning talks", details: "15 lightning talks total (split across two slots)" },
+    { time: "10:05–10:30", type: "talk", title: "Lightning talks 1", details: "8 papers with titles/authors on the site" },
     { time: "10:30–11:00", type: "break", title: "Break", details: "NB: site lists the next invited talk as starting 10:50, overlapping this break" },
     { time: "10:50–11:45", type: "keynote", title: "Invited talk", speaker: "Su Lin Blodgett" },
     { time: "11:45–12:30", type: "keynote", title: "Invited talk", speaker: "Zeerak Talat" },
     { time: "12:30–13:30", type: "break", title: "Lunch break" },
-    { time: "13:30–13:45", type: "session", title: "Best paper", details: "TBA" },
-    { time: "13:45–14:15", type: "talk", title: "Lightning talks" },
-    { time: "14:15–15:30", type: "poster", title: "Poster session", details: "28 posters" },
+    { time: "13:30–14:00", type: "talk", title: "Lightning talks 2", details: "11 papers with titles/authors on the site" },
+    { time: "14:00–14:15", type: "session", title: "Best paper award", details: "Winner still TBA" },
+    { time: "14:15–15:30", type: "poster", title: "Poster session", details: "28 posters, all with titles/authors on the site" },
     { time: "15:30–16:00", type: "break", title: "Break" },
     { time: "16:00–16:45", type: "keynote", title: "Invited talk", speaker: "Sarah T. Roberts" },
     { time: "16:45–17:25", type: "panel", title: "Panel discussion" },
     { time: "17:25–17:30", type: "session", title: "Closing remarks" }
   ],
-  notes: "Includes a mentorship programme."
+  notes: "Lightning-talk and poster slots now list all papers with titles/authors on the site. Best paper still unannounced. Includes a mentorship programme."
 });

@@ -17,5 +17,5 @@ addWorkshop({
     { name: "Perouz Taslakian", affiliation: "ServiceNow AI Research", title: null }
   ],
   schedule: [],
-  notes: "9:00–17:30, hybrid. Tentative speaker/panelist lineup (7 announced); no timed program published yet."
+  notes: "Thursday Oct 29, 8:45–17:15, Room P1, hybrid. Tentative speaker/panelist lineup (7 announced, still labeled tentative); no timed program published yet."
 });

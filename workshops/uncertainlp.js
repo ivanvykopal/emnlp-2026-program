@@ -28,5 +28,5 @@ addWorkshop({
     { time: "16:40–17:20", type: "keynote", title: "Keynote 4", speaker: "Gintare Karolina Dziugaite" },
     { time: "17:20–17:30", type: "session", title: "Closing remarks" }
   ],
-  notes: "Each keynote: ~30 min talk + 10 min questions. Accepted-paper list available on site."
+  notes: "Each keynote: ~30 min talk + 10 min questions. Accepted-papers page online with abstracts (incl. the SHROOM-Visions 2026 overview paper); the program page does not break the lightning rounds down to individual papers."
 });

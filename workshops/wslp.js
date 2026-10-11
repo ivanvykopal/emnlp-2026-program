@@ -8,5 +8,5 @@ addWorkshop({
   description: "All areas of sign language processing — recognition, translation, generation — with emphasis on underrepresented languages and communities.",
   speakers: [],
   schedule: [],
-  notes: "Hybrid. “Program under construction” and invited speakers “announced shortly” per site. Hosts a sign-language-translation shared task (baseline released)."
+  notes: "Accepted papers published (news item Oct 2): 16 workshop main papers + 6 shared-task papers with titles/authors (e.g. ISLiM, LSC-CARE, Bukva, HandReader); presentation modes all TBA. Program still “under construction” and invited speakers still “announced shortly”. Hybrid. Hosts a sign-language-translation shared task (baseline released)."
 });
