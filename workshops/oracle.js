@@ -5,6 +5,7 @@ addWorkshop({
   full_name: "Workshop on Open Reasoning Across Cultures & Languages",
   url: "https://sites.google.com/view/workshoporacle/",
   day: "thu",
+  room: "Room G7-8",
   description: "Transparent, reusable, reproducible multilingual reasoning for GenAI; includes the ORACLE-CR shared task on Open Cultural Reasoning Across Languages.",
   speakers: [],
   schedule: [],

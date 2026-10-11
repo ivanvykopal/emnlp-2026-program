@@ -3,6 +3,7 @@
 addWorkshop({
   name: "ArabicNLP",
   full_name: "Fourth Arabic Natural Language Processing Conference",
+  room: "Room G4-5",
   url: "https://arabicnlp2026.sigarab.org/",
   day: ["wed", "thu"],
   description: "The Arabic NLP community conference (SIGARAB): core Arabic NLP, machine learning and LLMs for Arabic, applications, and resources — shared tasks and invited talks, hybrid.",

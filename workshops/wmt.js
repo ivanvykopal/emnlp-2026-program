@@ -3,6 +3,7 @@
 addWorkshop({
   name: "WMT",
   full_name: "Eleventh Conference on Machine Translation",
+  room: "Room G1-3",
   url: "https://www2.statmt.org/wmt26/",
   day: ["wed", "thu"],
   description: "Two-day MT research conference with 13 shared tasks: general MT, Indic/Arabic-Asian/Chinese–Southeast-Asian/Creole translation, terminology, model compression, subtitles, test suites, metrics, open data, multilingual instruction, and limited-resources LLMs.",

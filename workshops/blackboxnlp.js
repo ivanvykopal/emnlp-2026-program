@@ -5,6 +5,7 @@ addWorkshop({
   full_name: "Analyzing and Interpreting Neural Networks for NLP (9th edition)",
   url: "https://blackboxnlp.github.io/",
   day: "thu",
+  room: "Room P3",
   description: "Interpreting and analyzing large language models: principled methods connecting model behaviors to their internal mechanisms, from ML, linguistics, psychology, and neuroscience.",
   speakers: [
     { name: "Ivan Titov", affiliation: "University of Edinburgh & University of Amsterdam", title: null },

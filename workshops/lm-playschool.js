@@ -5,6 +5,7 @@ addWorkshop({
   full_name: "Improving Language Models through Learning from Dialogue Game Interaction",
   url: "https://lm-playschool.github.io/",
   day: "wed",
+  room: "Room F6",
   description: "Language learning from social interaction in conversational, collaborative, task-oriented, multi-turn environments; language games for evaluating LLMs; connections between human acquisition and machine learning.",
   speakers: [
     { name: "Joyce Chai", affiliation: "University of Michigan", title: "Language Learning through Social and Embodied Experience" },

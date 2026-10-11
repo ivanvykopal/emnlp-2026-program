@@ -4,6 +4,7 @@ addWorkshop({
   name: "Insights",
   full_name: "Seventh Workshop on Insights from Negative Results in NLP",
   url: "https://insights-workshop.github.io/2026/",
+  room: "Room F7",
   day: "thu",
   description: "A venue for unexpected and negative results with important implications: failed approaches, non-generalizing methods, suspiciously strong baselines, metric and pipeline issues.",
   speakers: [

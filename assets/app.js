@@ -150,6 +150,7 @@
     row.style.setProperty("--h", e.ws.hue);
     const head = el("div", "ev-head");
     head.append(wsChip(e.ws), pill(e.type));
+    if (e.ws.room) head.append(el("span", "badge ev-room", e.ws.room));
     if (ph === "now") head.append(el("span", "now-badge", "Now"));
     if (e.time) head.append(el("span", "ev-time", e.rawTime.replace(/-/g, "–")));
     row.append(head, el("div", "ev-title", e.title));
@@ -241,6 +242,7 @@
       const r = el("div", "pending-ws");
       const head = el("div", "ev-head");
       head.append(wsChip(w), el("span", "status status--" + w.status, STATUS_LABEL[w.status]));
+      if (w.room) head.append(el("span", "badge ev-room", w.room));
       r.append(head);
       sp.forEach((s) => r.append(speakerLine(s)));
       rows.push(r);

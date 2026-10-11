@@ -5,6 +5,7 @@ addWorkshop({
   full_name: "Third Workshop on Uncertainty-Aware NLP",
   url: "https://uncertainlp.github.io/",
   day: "thu",
+  room: "Room F6",
   description: "Modeling and evaluating uncertainty arising from language, data, and modeling choices — aleatoric vs. epistemic uncertainty, calibration, selective prediction, hallucination detection.",
   speakers: [
     { name: "André Martins", affiliation: "Instituto Superior Técnico / Unbabel", title: null },

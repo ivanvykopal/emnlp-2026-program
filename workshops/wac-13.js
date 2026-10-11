@@ -5,6 +5,7 @@ addWorkshop({
   full_name: "13th Web-as-Corpus Workshop",
   url: "https://wackyworkshop.org/",
   day: "thu",
+  room: "Room G6",
   description: "The full life-cycle of web-based data: collection, cleaning, enrichment of web corpora, and downstream applications — with emphasis on multilingual data and less-resourced languages.",
   speakers: [],
   schedule: [],

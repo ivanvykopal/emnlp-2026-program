@@ -5,6 +5,7 @@ addWorkshop({
   full_name: "Multimodal Interaction in Face-to-Face Dialogue",
   url: "https://mintworkshop.github.io/2026/",
   day: "thu",
+  room: "Room F8",
   description: "Verbal and non-verbal behaviour (gesture, gaze, prosody, pose) as a core part of communication — resources, modelling, processing, and evaluation for face-to-face dialogue. Hybrid.",
   speakers: [
     { name: "Judith Holler", affiliation: "Radboud University & Max Planck Institute for Psycholinguistics", title: null },

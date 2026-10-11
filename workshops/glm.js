@@ -5,6 +5,7 @@ addWorkshop({
   full_name: "Grounding Language Models: Learning Faithfully and Efficiently",
   url: "https://groundlm.github.io/grouplm_emnlp2026/",
   day: "thu",
+  room: "Room P2",
   description: "Grounding language models in signals beyond text — external knowledge, interaction, perception, action — for faithfulness (less hallucination, verifiability) and learning efficiency.",
   speakers: [],
   schedule: [],

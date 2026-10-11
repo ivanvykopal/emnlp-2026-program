@@ -5,6 +5,7 @@ addWorkshop({
   full_name: "Natural Legal Language Processing Workshop 2026 (8th edition)",
   url: "https://nllpw.org/workshop",
   day: "wed",
+  room: "Room G9-10",
   description: "Methods and applications of NLP for the legal domain: original research on legal data (case law, rules, contracts) and data with legal relevance.",
   speakers: [],
   schedule: [],

@@ -4,6 +4,7 @@ addWorkshop({
   name: "WOAH",
   full_name: "10th Workshop on Online Abuse and Harms",
   url: "https://www.thewoah.org/",
+  room: "Room G12",
   day: "thu",
   description: "Leading forum on online harms: detection, measurement, moderation across technical, social, legal, and ethical dimensions. 10th-edition theme: “Ten Years of WOAH: Reflecting on Progress and New Frontiers”.",
   speakers: [
