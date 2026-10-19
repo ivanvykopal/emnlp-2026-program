@@ -8,6 +8,17 @@ addWorkshop({
   room: "Room F4-5",
   description: "A forum for advancing research on Mathematical NLP: model architectures, evaluation methods, and downstream applications for inference over mathematical text.",
   speakers: [],
-  schedule: [],
-  notes: "Official site linked from the EMNLP 2026 workshops page in October 2026. No program, speakers, or accepted-papers list published on the site yet (camera-ready deadline was Sep 18)."
+  schedule: [
+    { time: "09:15–09:30", type: "session", title: "Opening remarks" },
+    { time: "09:30–10:30", type: "talk", title: "Oral session 1", details: "Four papers, incl. Hegelian Self-Reflection for Improved Mathematical and Symbolic Reasoning; Structural Signatures of Correct Mathematical Reasoning Traces; Pythagoras-Prover; Simulating Student-Tutor Interactions with LLMs" },
+    { time: "10:30–11:00", type: "break", title: "Coffee break" },
+    { time: "11:00–12:00", type: "poster", title: "Poster session 1", details: "Eleven posters" },
+    { time: "12:00–12:30", type: "talk", title: "Oral session 2", details: "Two papers: Fixing FOLIO and MALLS; Definition Modeling for Mathematics" },
+    { time: "12:30–14:00", type: "break", title: "Lunch break" },
+    { time: "14:00–14:30", type: "talk", title: "Oral session 3", details: "Two papers: BlueprintRepair; Improving Natural-Language Combinatorial-Optimization Accuracy in Resource-Constrained Language Models" },
+    { time: "14:30–15:30", type: "panel", title: "Panel discussion (TBD)" },
+    { time: "15:30–16:00", type: "break", title: "Coffee break" },
+    { time: "16:00–17:00", type: "poster", title: "Poster session 2", details: "Twelve posters" }
+  ],
+  notes: "Program published on sites.google.com/view/mathnlp2026/programme. No invited speakers announced; panel lineup TBD."
 });
