@@ -11,11 +11,11 @@ addWorkshop({
     { name: "Maria Brbić", affiliation: "EPFL", title: null },
     { name: "Vishrav Chaudhary", affiliation: "Meta Superintelligence Labs", title: null },
     { name: "Marc-Alexandre Côté", affiliation: "Microsoft Research", title: null },
-    { name: "Manling Li", affiliation: "Northwestern University", title: null },
     { name: "Baptiste Rozière", affiliation: "Mistral AI", title: null },
-    { name: "Graham Neubig", affiliation: "Carnegie Mellon University", title: null },
-    { name: "Perouz Taslakian", affiliation: "ServiceNow AI Research", title: null }
+    { name: "Graham Neubig", affiliation: "Carnegie Mellon University / OpenHands", title: null },
+    { name: "Perouz Taslakian", affiliation: "McGill University / Mila", title: null }
+
   ],
   schedule: [],
-  notes: "Thursday Oct 29, 8:45–17:15, Room P1, hybrid. Tentative speaker/panelist lineup (7 announced, still labeled tentative); no timed program published yet."
+  notes: "Thursday Oct 29, 9:15–16:30, Room P1, hybrid. Six invited speakers/panelists announced (lineup confirmed, no longer labeled tentative); no timed program published yet."
 });
