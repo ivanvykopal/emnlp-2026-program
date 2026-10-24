@@ -18,11 +18,9 @@ addWorkshop({
     { time: "11:00–12:30", type: "talk", title: "Oral session 1 — Fairness, reliability and conversational speech", details: "Five papers, 12 min talk + 3 min Q&A each" },
     { time: "12:30–14:00", type: "break", title: "Lunch break" },
     { time: "14:00–15:00", type: "keynote", title: "Keynote 2", speaker: "Jesper Rindom Jensen" },
-    { time: "15:00–15:30", type: "poster", title: "Poster session 1", details: "13 posters" },
-    { time: "15:30–16:00", type: "break", title: "Coffee break" },
-    { time: "16:00–16:30", type: "poster", title: "Poster session 2", details: "Same 13 posters as session 1" },
-    { time: "16:30–17:00", type: "talk", title: "Oral session 2 — Fairness in speaker verification and speech representations", details: "Two papers, 12 min talk + 3 min Q&A each" },
-    { time: "17:00–17:15", type: "session", title: "Closing remarks" }
+    { time: "15:00–15:30", type: "talk", title: "Oral session 2 — Fairness in speaker verification and speech representations", details: "TurkSV-Bench; A Probe Shift Is Not a Fairness Fix" },
+    { time: "16:00–17:30", type: "poster", title: "Poster session", details: "Same 13 posters as in the earlier plan" },
+    { time: "", type: "session", title: "Closing remarks" }
   ],
-  notes: "Tentative program published with talk titles and abstracts; accepted-papers list online. Two oral sessions, two poster sessions with the same lineup."
+  notes: "Program published with talk titles and abstracts; accepted-papers list online. One oral session in the morning and one in the afternoon, single poster session 16:00–17:30; closing remarks untimed on the site."
 });

@@ -23,7 +23,7 @@ addWorkshop({
     { time: "14:05–14:50", type: "keynote", title: "Invited talk 3", speaker: "Dirk Hovy" },
     { time: "14:50–15:30", type: "talk", title: "Oral session 3: Test-Time Behavior and Evaluation", details: "3 papers" },
     { time: "15:30–16:05", type: "break", title: "Coffee break" },
-    { time: "16:05–17:30", type: "poster", title: "Poster session", details: "7 papers with titles/authors on the program page" },
+    { time: "16:05–17:30", type: "poster", title: "Poster session", details: "9 papers with titles/authors on the program page" },
     { time: "17:30–17:35", type: "session", title: "Closing" }
   ],
   notes: "Full timed program published in October 2026. Two invited speakers added vs. the earlier snapshot (Anya Belz, Dirk Hovy). Short papers + non-archival abstracts."

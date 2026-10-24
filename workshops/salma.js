@@ -7,19 +7,26 @@ addWorkshop({
   day: "wed",
   room: "Room F9-10",
   description: "Speech and audio as first-class modalities for large language models: architectures, training, data creation, alignment, and evaluation of large audio-language models.",
-  speakers: [],
-  schedule: [
-    { time: "09:00–09:05", type: "session", title: "Opening" },
-    { time: "09:05–10:00", type: "keynote", title: "Keynote 1", details: "Speaker TBA" },
-    { time: "10:00–10:30", type: "talk", title: "Orals 1–3", details: "KanAdapter; CoSE-E (code-switched speech eval); When How You Speak Changes What Models Refuse" },
-    { time: "10:30–11:00", type: "break", title: "Coffee break" },
-    { time: "11:00–12:00", type: "keynote", title: "Keynote 2", details: "Speaker TBA" },
-    { time: "12:00–12:30", type: "talk", title: "Orals 4–6", details: "Echoes in Plato's Cave; SEABED (SE-Asian audio reasoning benchmark); TurnStyle" },
-    { time: "12:30–14:00", type: "break", title: "Lunch" },
-    { time: "14:00–15:30", type: "poster", title: "Poster session", details: "13 posters with titles/authors, incl. CVSS-X, TORUS, Nuha-Speech, MENASpeechBank" },
-    { time: "15:30–16:00", type: "break", title: "Coffee break" },
-    { time: "16:00–17:00", type: "panel", title: "Panel / Keynote 3", details: "Speaker TBA" },
-    { time: "17:00–17:15", type: "session", title: "Closing & best paper awards" }
+  speakers: [
+    { name: "Philipp Koehn", affiliation: "Johns Hopkins University", title: null },
+    { name: "Berrak Sisman", affiliation: "Johns Hopkins University", title: null },
+    { name: "Gabriel Skantze", affiliation: "KTH Royal Institute of Technology", title: null },
+    { name: "Sebastian Möller", affiliation: "TU Berlin", title: null },
+    { name: "Piotr Żelasko", affiliation: "NVIDIA", title: null },
+    { name: "Julia Hirschberg", affiliation: "Columbia University", title: null }
   ],
-  notes: "Timed program published in October 2026; keynote speakers still not announced. Hybrid (online + in-person). Includes a shared task using MMAU-Pro to benchmark audio understanding."
+  schedule: [
+    { time: "09:00–09:05", type: "session", title: "Opening ceremony" },
+    { time: "09:05–10:00", type: "keynote", title: "Keynote 1", speaker: "Philipp Koehn" },
+    { time: "10:00–11:00", type: "keynote", title: "Keynote 2", speaker: "Berrak Sisman" },
+    { time: "11:00–11:30", type: "break", title: "Coffee break & poster session" },
+    { time: "11:30–12:30", type: "keynote", title: "Keynote 3", speaker: "Gabriel Skantze" },
+    { time: "12:30–14:00", type: "break", title: "Lunch & posters" },
+    { time: "14:00–15:00", type: "keynote", title: "Keynote 4", speaker: "Sebastian Möller" },
+    { time: "15:00–15:30", type: "break", title: "Coffee break & posters" },
+    { time: "15:30–16:30", type: "keynote", title: "Keynote 5", speaker: "Piotr Żelasko" },
+    { time: "16:30–17:30", type: "keynote", title: "Keynote 6", speaker: "Julia Hirschberg" },
+    { time: "17:30–17:35", type: "session", title: "Closing & best paper awards" }
+  ],
+  notes: "Timed program published in October 2026; all six keynote speakers announced, titles TBA. All 19 accepted papers are presented as posters during the breaks (no oral sessions). Hybrid (online + in-person). Includes a shared task using MMAU-Pro to benchmark audio understanding."
 });

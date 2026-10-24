@@ -32,9 +32,8 @@ addWorkshop({
     { time: "14:30–16:00", type: "poster", title: "Poster session", details: "27 accepted research papers + 17 shared-task papers presented as posters; coffee 15:30–16:00 overlaps posters. Some posters are also selected for lightning talks." },
     { time: "16:00–16:30", type: "keynote", title: "Invited talk 6", speaker: "Alon Halevy" },
     { time: "16:30–17:00", type: "keynote", title: "Invited talk 7", speaker: "Dan Roth" },
-    { time: "17:00–17:15", type: "session", title: "Community discussion" },
-    { time: "17:15–17:30", type: "session", title: "Closing" },
-    { time: "18:00–open end", type: "other", title: "AKBC reception at Sky bar, Expo Tower Hotel", details: "TBC" }
+    { time: "17:00–17:15", type: "session", title: "Buffer" },
+    { time: "17:15–17:30", type: "session", title: "Closing" }
   ],
   notes: "Provisional schedule — subject to change per the organizers. Keynote titles announced for Heng Ji and Alon Halevy; the other five are still untitled. LM-KBC shared task on closed-book knowledge base construction; sponsors: Bloomberg, SLB."
 });
