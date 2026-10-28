@@ -24,7 +24,7 @@ addWorkshop({
     { time: "12:15–12:30", type: "talk", title: "Oral presentation — Top 1 shared-task submission" },
     { time: "12:30–14:00", type: "break", title: "Lunch" },
     { time: "14:00–14:45", type: "keynote", title: "Invited talk", speaker: "Joyce Chai" },
-    { time: "14:45–15:30", type: "poster", title: "Poster session" },
+    { time: "14:45–15:30", type: "poster", title: "Poster session", details: "Hall H, Section 5, boards 190-204" },
     { time: "15:30–16:00", type: "break", title: "Coffee break" },
     { time: "16:00–16:45", type: "keynote", title: "Invited talk", speaker: "Michael Frank" },
     { time: "16:45–17:30", type: "panel", title: "Panel discussion" }

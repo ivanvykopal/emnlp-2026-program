@@ -19,6 +19,7 @@ addWorkshop({
     { time: "12:30–13:30", type: "break", title: "Lunch (provided on-site)" },
     { time: "13:30–14:25", type: "session", title: "Session 3 — talks and rapid-fire presentations", details: "Three 10-min talks, then 25 one-minute rapid-fire papers (14:00–14:25)" },
     { time: "14:25–15:30", type: "poster", title: "Poster session" },
+    { time: "15:30–16:00", type: "break", title: "Break" },
     { time: "16:00–17:25", type: "talk", title: "Session 4 — ChildSafeAds shared task and papers", details: "Shared-task overview and system papers (rapid-fire 16:15–16:19), then Q&A shared task and next steps and regular papers" },
     { time: "17:25–17:30", type: "session", title: "Closing and awards" }
   ],

@@ -1,9 +1,9 @@
 /* WiNLP — Tenth Widening NLP Workshop
- * Source: https://winlp-workshop.github.io/ (canonical: https://www.winlp.org/) */
+ * Source: https://winlp-workshop.github.io/events/winlp-2026/program/ */
 addWorkshop({
   name: "WiNLP",
   full_name: "Tenth Widening NLP Workshop",
-  url: "https://www.winlp.org/",
+  url: "https://winlp-workshop.github.io/events/winlp-2026/program/",
   day: "wed",
   room: "Room G6",
   description: "Diversity and inclusion workshop providing a dedicated venue for researchers from underrepresented groups to present work, receive feedback, and build professional connections.",
@@ -24,5 +24,5 @@ addWorkshop({
     { time: "16:00–17:00", type: "keynote", title: "Keynote B", speaker: "Atnafu Lambebo Tonja" },
     { time: "17:00–17:15", type: "session", title: "Closing remarks & best paper award" }
   ],
-  notes: "Wednesday Oct 28, Room G6, HUNGEXPO; hybrid. Program published Oct 21, 2026. Note: the old events/winlp-2026/ URL now 404s; the site lives at winlp-workshop.github.io with canonical domain www.winlp.org (which currently has a TLS certificate error)."
+  notes: "Wednesday Oct 28, Room G6, HUNGEXPO; hybrid. Program published Oct 21, 2026. Full program on winlp-workshop.github.io/events/winlp-2026/program/; www.winlp.org currently fails with a TLS certificate error."
 });

@@ -6,7 +6,7 @@
  * To update one: edit its file and bump LAST_UPDATED.
  */
 window.SITE = {
-  LAST_UPDATED: "October 24, 2026",
+  LAST_UPDATED: "October 28, 2026",
   TIMEZONE: "Budapest local time",
   // IANA zone of the venue; used to gray out past events and highlight what's on now.
   TZ: "Europe/Budapest",

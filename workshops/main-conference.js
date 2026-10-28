@@ -9,11 +9,11 @@ addWorkshop({
   day: ["sat", "sun", "mon", "tue"],
   description: "Main conference: plenary keynotes, oral/poster sessions (Main, Findings, CL, TACL, Demos, SRW, Industry), panel, business meeting, best paper awards. Posters, Findings sessions and exhibitors in Hall H.",
   speakers: [
-    { name: "Pascale Fung", affiliation: "AMI Labs / HKUST", title: "Towards AI that understands the Real World" },
+    { name: "Pascale Fung", affiliation: "AMI Labs / HKUST", title: "A Tale of Two Objectives: Past, Present and Future of NLP" },
     { name: "Graham Neubig", affiliation: "Carnegie Mellon University / OpenHands", title: "On the Value of Open Research in Language Modeling - An Adversarial Dialog" },
     { name: "Anna Korhonen", affiliation: "University of Cambridge", title: "AI for the Many: Starting from the World, Not the Model" },
     { name: "Mohit Bansal", affiliation: "UNC Chapel Hill", title: "Agentic Challenges (Trustworthy Collaboration, World Discovery, and Long-Horizon Memory) and Industry-Academia Collaborations" },
-    { name: "Verena Rieser", affiliation: "Google DeepMind", title: "What are we aligning to? Positive Alignment for Value-based Agents" }
+    { name: "Verena Rieser", affiliation: "Google DeepMind", title: "Toward a Science of Constitutional Alignment: Positive Alignment for Value-Based Agents" }
   ],
   schedule: [
     { day: "sat", time: "14:00–19:30", type: "other", title: "Registration" },
@@ -53,10 +53,10 @@ addWorkshop({
     { day: "tue", time: "11:00–12:30", type: "poster", title: "Session 11 — Orals/Posters G", details: "Main, CL, TACL, Demos" },
     { day: "tue", time: "12:30–14:00", type: "break", title: "Lunch break (Findings Posters)", details: "Lunch provided" },
     { day: "tue", time: "12:30–14:00", type: "session", title: "Virtual Presentation Session 5", details: "via Underline" },
-    { day: "tue", time: "14:00–15:00", type: "keynote", title: "Keynote 3", speaker: "Anna Korhonen", details: "Keynotes page says 14:30–15:30" },
+    { day: "tue", time: "14:00–15:00", type: "keynote", title: "Keynote 3", speaker: "Anna Korhonen" },
     { day: "tue", time: "15:00–15:30", type: "break", title: "Coffee break" },
     { day: "tue", time: "15:30–16:30", type: "session", title: "Session 13 — Best Paper Award" },
     { day: "tue", time: "16:30–17:00", type: "session", title: "Session 13 — Closing Session" }
   ],
-  notes: "Times from the official overview table. Paper-level program: see the Google Sheet linked on the program page. Lunch is provided on all days; breakfast is not."
+  notes: "Times from the official overview table. Paper-level program: see the Google Sheet linked on the program page; the digital conference handbook is also linked there. Lunch is provided on all days; breakfast is not."
 });

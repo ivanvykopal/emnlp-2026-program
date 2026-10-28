@@ -8,8 +8,8 @@ addWorkshop({
   room: "Room F8",
   description: "Addresses the missing piece of the generative era — structured knowledge. Knowledge bases serve as ground truth for fact verification, the semantic backbone for constrained decoding, and a resource behind RAG.",
   speakers: [
-    { name: "Denny Vrandečić", affiliation: "Wikimedia", title: null },
-    { name: "Mausam", affiliation: "IIT Delhi", title: null },
+    { name: "Denny Vrandečić", affiliation: "Wikimedia", title: "Knowledge for LLMs" },
+    { name: "Mausam", affiliation: "IIT Delhi", title: "Semantic Parsing for KBQA: Robustness, Reasoning & Efficiency" },
     { name: "Heng Ji", affiliation: "University of Illinois Urbana-Champaign", title: "Constructing a 16-Million-Edge Knowledge Network for Agentic Scientific Discovery" },
     { name: "Alon Halevy", affiliation: "Google", title: "Designing Knowledge Agents" },
     { name: "Dan Roth", affiliation: "University of Pennsylvania / Oracle", title: null },
@@ -29,11 +29,11 @@ addWorkshop({
     { time: "12:15–12:30", type: "talk", title: "Featured paper 3: GRACE-Mem — Wang et al." },
     { time: "12:30–13:30", type: "break", title: "Lunch break" },
     { time: "13:45–14:30", type: "session", title: "Shared task session (LM-KBC)" },
-    { time: "14:30–16:00", type: "poster", title: "Poster session", details: "27 accepted research papers + 17 shared-task papers presented as posters; coffee 15:30–16:00 overlaps posters. Some posters are also selected for lightning talks." },
+    { time: "14:30–16:00", type: "poster", title: "Poster session", details: "Boards 300-343. 27 accepted research papers + 17 shared-task papers presented as posters; coffee 15:30–16:00 overlaps posters. Some posters are also selected for lightning talks." },
     { time: "16:00–16:30", type: "keynote", title: "Invited talk 6", speaker: "Alon Halevy" },
     { time: "16:30–17:00", type: "keynote", title: "Invited talk 7", speaker: "Dan Roth" },
     { time: "17:00–17:15", type: "session", title: "Buffer" },
     { time: "17:15–17:30", type: "session", title: "Closing" }
   ],
-  notes: "Provisional schedule — subject to change per the organizers. Keynote titles announced for Heng Ji and Alon Halevy; the other five are still untitled. LM-KBC shared task on closed-book knowledge base construction; sponsors: Bloomberg, SLB."
+  notes: "Provisional schedule — subject to change per the organizers. Keynote titles announced for Denny Vrandečić, Mausam, Heng Ji and Alon Halevy; Amir Globerson, Parisa Kordjamshidi and Dan Roth are still untitled. LM-KBC shared task on closed-book knowledge base construction; sponsors: Bloomberg, SLB."
 });
