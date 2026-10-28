@@ -9,7 +9,7 @@ addWorkshop({
   description: "Interpreting and analyzing large language models: principled methods connecting model behaviors to their internal mechanisms, from ML, linguistics, psychology, and neuroscience.",
   speakers: [
     { name: "Ivan Titov", affiliation: "University of Edinburgh & University of Amsterdam", title: "Post-training for reasoning in LLMs: learning vs reshaping, generalization and failure modes" },
-    { name: "Sheridan Feucht", affiliation: "Northeastern University (Khoury College)", title: "How do LLMs Read? Two Ways LLMs Map from Arbitrary Symbols to Words" },
+    { name: "Sheridan Feucht", affiliation: "Northeastern University", title: "How do LLMs Read? Two Ways LLMs Map from Arbitrary Symbols to Words" },
     { name: "Michael Hahn", affiliation: "Saarland University", title: "From Transformers to Programs and Automata" }
   ],
   schedule: [

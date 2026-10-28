@@ -18,7 +18,7 @@ addWorkshop({
     { time: "10:35–11:00", type: "break", title: "Coffee break" },
     { time: "11:00–12:30", type: "talk", title: "Oral session 2", details: "Six papers, 10 min + 5 min Q&A each" },
     { time: "12:30–14:00", type: "break", title: "Lunch break" },
-    { time: "14:00–15:30", type: "poster", title: "Poster session", details: "Posters to be announced" },
+    { time: "14:00–15:30", type: "poster", title: "Poster session", details: "8 posters, titles/authors on the site" },
     { time: "15:30–16:00", type: "break", title: "Coffee break" },
     { time: "16:00–16:45", type: "talk", title: "Oral session 3", details: "Three papers, 10 min + 5 min Q&A each" },
     { time: "16:45–17:25", type: "keynote", title: "Keynote 2 (remote)", speaker: "Judith Holler", details: "30 min talk + 10 min Q&A" },

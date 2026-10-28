@@ -5,7 +5,7 @@ addWorkshop({
   full_name: "11th Workshop on Financial Technology and NLP (ACL SIG-FinTech)",
   url: "https://sigfintech.github.io/finnlp2026/index.html",
   day: "wed",
-  room: "Room F8",
+  room: "Room F7",
   description: "Annual workshop of the ACL SIG on Financial and Economic NLP, exploring NLP, ML, and LLMs in the financial, economics, and legal domains.",
   speakers: [
     { name: "Daniel Preoțiuc-Pietro", affiliation: "Bloomberg", title: "Navigating the Open Challenges of Complex Financial Question Answering" },
@@ -30,8 +30,8 @@ addWorkshop({
     { time: "15:30–16:00", type: "break", title: "Coffee break" },
     { time: "16:00–16:45", type: "talk", title: "Oral session II — Financial Text Understanding and Reasoning", details: "Six papers, five minutes each, then joint Q&A" },
     { time: "16:45–17:15", type: "panel", title: "Why FinNLP — and Who Is It For?", details: "Moderated by Chung-Chi Chen, with the invited speakers" },
-    { time: "17:15–17:30", type: "session", title: "Closing remarks — Yongjae Lee", details: "Including the FinNLP 2027 announcement (ACL 2027, Kyoto, with Qianqian Xie)" },
+    { time: "17:15–17:30", type: "session", title: "Domyn Best Paper Award and Closing Remarks", details: "By Yongjae Lee, including the FinNLP 2027 announcement (ACL 2027, Kyoto, with Qianqian Xie)" },
     { time: "19:00–21:00", type: "other", title: "FinNLP Night reception", details: "Sponsored by Bloomberg — Expo Tower Hotel, next to HUNGEXPO (separate venue)" }
   ],
-  notes: "Program published on program.html. Room F8, HUNGEXPO. Collocated FinEval shared task; evening reception 19:00–21:00 sponsored by Bloomberg."
+  notes: "Program published on program.html. Room F7, HUNGEXPO. Collocated FinEval shared task; evening reception 19:00–21:00 sponsored by Bloomberg."
 });

@@ -19,7 +19,7 @@ addWorkshop({
     { time: "11:00–12:30", type: "talk", title: "Oral presentation", details: "26 accepted papers overall" },
     { time: "12:30–14:00", type: "break", title: "Lunch" },
     { time: "14:00–15:00", type: "keynote", title: "Keynote 2", speaker: "Hinrich Schütze", details: "Chair: JinYeong Bak" },
-    { time: "15:00–16:00", type: "poster", title: "Poster presentation (coffee 15:30–16:00 overlaps)" },
+    { time: "15:00–16:00", type: "poster", title: "Poster presentation (coffee 15:30–16:00 overlaps)", details: "Board ID: 207–226" },
     { time: "16:00–17:00", type: "keynote", title: "Keynote 3", speaker: "Haneul Yoo", details: "Chair: Weerayut Buaphet" },
     { time: "17:00–17:30", type: "session", title: "Closing & next steps" }
   ],

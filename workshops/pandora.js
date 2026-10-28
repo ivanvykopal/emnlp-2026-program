@@ -17,7 +17,7 @@ addWorkshop({
     { time: "09:10–09:50", type: "keynote", title: "Keynote", speaker: "Vinodkumar Prabhakaran" },
     { time: "09:50–10:40", type: "talk", title: "Oral session 1 — Multicultural representation", details: "What is 'Cultural Representation' in NLP?; Evaluating Cultural Awareness of LLMs for Haitian Creole; LatAm-RT: Toward Culturally Adaptive Red Teaming for AI Safety in Latin America" },
     { time: "10:40–11:00", type: "break", title: "Coffee break" },
-    { time: "11:10–12:00", type: "talk", title: "Oral session 2 — Societal values", details: "3 papers with titles/authors on the site" },
+    { time: "11:10–12:00", type: "talk", title: "Oral session 2 — Societal values", details: "Population-Grounded Evaluation of Multilingual LLM Alignment with European Societal Values; Silent Consensus: Might Language Models Collapse Societal Pluralism? A Reflection; Labels have Human Values: Value Calibration of Subjective Tasks" },
     { time: "12:00–12:30", type: "talk", title: "Poster lightning talks" },
     { time: "12:30–13:30", type: "break", title: "Lunch" },
     { time: "13:30–14:45", type: "poster", title: "Poster session" },
